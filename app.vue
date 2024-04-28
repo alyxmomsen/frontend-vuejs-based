@@ -1,8 +1,11 @@
+<script setup></script>
+
 <template>
   <NuxtLayout>
-    <NuxtLink to="/">link to home</NuxtLink>
-    <NuxtLink to="/about">link to about</NuxtLink>
-    <NuxtLink to="/users">link to users</NuxtLink>
-    <NuxtPage />
+    <div class="min-h-screen text-[#e7e5e4] bg-[#292524]">
+      <MainMenu />
+      <NuxtPage />
+    </div>
   </NuxtLayout>
 </template>
+
