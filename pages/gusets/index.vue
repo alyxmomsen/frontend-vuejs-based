@@ -1,14 +1,7 @@
 <template>
     <div>
-        <h1>Users</h1>
-        <h2>{{ inputstring }}</h2>
-        <div>
-            <div v-for="user in users">
-                <p>{{ user.name }}</p>
-                <p>{{ user.email }}</p>
-            </div>
-            <input type="text" v-model="inputstring"/>
-        </div>
+        <h1>Guests</h1>
+        <div>list</div>
     </div>
 </template>
 
@@ -32,7 +25,11 @@ export default {
                 } ,
             ]
         }
-    }
+    }, 
+    components:[
+
+    ]
+
 }
 </script>
 
